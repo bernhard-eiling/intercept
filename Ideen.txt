@@ -1,0 +1,23 @@
+AT: Interceptor!
+
+GAMEPLAY:
+Es gilt ein Träger schiff vor angreifenden gegnern zu schützen.
+INterceptor können gestartet werden, zu beginn 2 oder 3, starten von hangaren. zu beginn des spiels befinden sich 2 an der front und 1 am hinteren teil des trägers
+Gegner müssen abgefangen werden.
+Asteroiden muss ausgeweicht werden.
+
+
+Stil:
+alle texturen fotos (kann man selber machen)
+
+
+LineClass:
+
+in jeden loopdurchlauf wird x, y koordinate von touchevent gespeichert.
+die koordinaten werden in array gespeichert und mit linien verbunden.
+fighter iterriert/bewegt über die 1. 2. usw. linie
+ausrichtung des fighters anhand der steigung der jeweiligen linie, dx / dy
+
+onTouchBeginn:
+Linien Objekt wird angelegt.
+koordinaten gespeichert.

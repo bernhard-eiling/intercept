@@ -1,0 +1,5 @@
+﻿Intercept is a game prototype for Android using the AndEngine for 2D openGL graphics. http://www.andengine.org/
+
+The goal ist to defend your mothership in space by drawing courses for your interceptors to shoot incoming attackers and avoid asteroids.
+
+A running prototype is installed on my private Android device.
